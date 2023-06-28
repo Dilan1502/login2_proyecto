@@ -56,8 +56,8 @@ class _LoginScreenState extends State<LoginScreen> {
         showDialog(
           context: context,
           builder: (context) => AlertDialog(
-            title: Text('Inicio de Sesión'),
-            content: Text('Has iniciado sesión correctamente.'),
+            title: Text('Crear cuenta'),
+            content: Text('Has creado la cuenta correctamente.'),
             actions: [
               TextButton(
                 onPressed: () => Navigator.pop(context),
@@ -70,7 +70,7 @@ class _LoginScreenState extends State<LoginScreen> {
         showDialog(
           context: context,
           builder: (context) => AlertDialog(
-            title: Text('Inicio de Sesión'),
+            title: Text('Crear cuenta'),
             content: Text('Las credenciales ingresadas no son correctas.'),
             actions: [
               TextButton(
@@ -284,7 +284,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       Size(200, 50), // Ajusta el tamaño según tus necesidades
                 ),
                 child: Text(
-                  'Iniciar Sesión',
+                  'Crear Cuenta',
                   style: TextStyle(color: Colors.white),
                 ),
               ),
